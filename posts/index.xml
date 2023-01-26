@@ -6,15 +6,15 @@
     <description>Recent content in Posts on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 13 Feb 2022 10:49:33 +0700</lastBuildDate><atom:link href="https://thanhfphan.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 26 Jan 2023 23:52:27 +0700</lastBuildDate><atom:link href="https://thanhfphan.com/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Hello</title>
-      <link>https://thanhfphan.com/posts/hello/</link>
-      <pubDate>Sun, 13 Feb 2022 10:49:33 +0700</pubDate>
+      <title>Double Buffering</title>
+      <link>https://thanhfphan.com/posts/double-buffering/</link>
+      <pubDate>Thu, 26 Jan 2023 23:52:27 +0700</pubDate>
       
-      <guid>https://thanhfphan.com/posts/hello/</guid>
+      <guid>https://thanhfphan.com/posts/double-buffering/</guid>
       
-        <description>How&amp;rsquo;s your day going?</description>
+        <description>Là một kỹ thuật lập trình dùng 2 buffer để lưu trữ dữ liệu, mục đích để giảm thời gian chờ giữa lúc chuẩn bị và lúc sử dụng dữ liệu.</description>
       
     </item>
     
