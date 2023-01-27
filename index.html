@@ -363,6 +363,44 @@
     >
       
       <div class="post__content">
+        <h3><a href="/posts/false-sharing/">FALSE SHARING</a></h3>
+        
+          <p>Khi CPU truy cập memory ở một địa chỉ cụ thể để lấy dữ liệu thì CPU sẽ tự động sao chép các dữ liệu liền kề với địa chỉ đó(cache line) vào CPU cache để tối ưu lần truy cập sau, tuy nhiên việc cập nhật các phần tử khác nhau(multiprocessor) ở trong cache line sẽ dẫn đến cache line được đánh dấu là invalid, từ đó buộc CPU phải gửi yêu cầu lấy dữ liệu đến memory hoặc các nơi khác thay vì lấy trong CPU cache, tình huống này được gọi là false sharing</p>
+
+        
+        </div>
+
+      
+      <div class="post__footer">
+        <em class="fas fa-calendar-day"></em>
+        <span class="post__footer-date"
+          >
+            27/1/2023
+
+
+          </span
+        >
+        
+
+        
+          <span><a class="tag" href="/tags/go/">go</a><a class="tag" href="/tags/parallel/">parallel</a><a class="tag" href="/tags/vietnamese/">vietnamese</a></span>
+
+
+
+
+        
+      </div>
+    </div>
+
+  
+    <div
+      class="post 
+        animated fadeInDown
+
+      "
+    >
+      
+      <div class="post__content">
         <h3><a href="/posts/double-buffering/">DOUBLE BUFFERING</a></h3>
         
           <p>Là một kỹ thuật lập trình dùng 2 buffer để lưu trữ dữ liệu, mục đích để giảm thời gian chờ giữa lúc chuẩn bị và lúc sử dụng dữ liệu.</p>

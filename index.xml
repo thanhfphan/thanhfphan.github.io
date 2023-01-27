@@ -6,7 +6,18 @@
     <description>Recent content on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 26 Jan 2023 23:52:27 +0700</lastBuildDate><atom:link href="https://thanhfphan.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 27 Jan 2023 16:00:17 +0700</lastBuildDate><atom:link href="https://thanhfphan.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>False Sharing</title>
+      <link>https://thanhfphan.com/posts/false-sharing/</link>
+      <pubDate>Fri, 27 Jan 2023 16:00:17 +0700</pubDate>
+      
+      <guid>https://thanhfphan.com/posts/false-sharing/</guid>
+      
+        <description>Khi CPU truy cập memory ở một địa chỉ cụ thể để lấy dữ liệu thì CPU sẽ tự động sao chép các dữ liệu liền kề với địa chỉ đó(cache line) vào CPU cache để tối ưu lần truy cập sau, tuy nhiên việc cập nhật các phần tử khác nhau(multiprocessor) ở trong cache line sẽ dẫn đến cache line được đánh dấu là invalid, từ đó buộc CPU phải gửi yêu cầu lấy dữ liệu đến memory hoặc các nơi khác thay vì lấy trong CPU cache, tình huống này được gọi là false sharing</description>
+      
+    </item>
+    
     <item>
       <title>Double Buffering</title>
       <link>https://thanhfphan.com/posts/double-buffering/</link>
