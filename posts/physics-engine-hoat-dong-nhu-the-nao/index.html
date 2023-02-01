@@ -197,7 +197,7 @@
 
     ,
         "url" : "https:\/\/thanhfphan.com\/posts\/physics-engine-hoat-dong-nhu-the-nao\/",
-        "wordCount" : "1324",
+        "wordCount" : "1391",
         "genre" : [ ],
         "keywords" : [ 
       
@@ -619,6 +619,7 @@ Về cơ bản physics engine được chi ra làm 4 stages:</p>
 <ul>
 <li>Physics Engine đặc biệt cho game thì không cần nhất thiết phải giống thật 100% ngoài đời. Đơn cử game phía trên chúng ta không có tính trọng lực vì mình đang giả định là game kiểu top-down nhìn từ trên xuống</li>
 <li>Biến <code>totalForces</code> ở trong struct Body là tổng cộng tất cả các lực được tác dụng lên nó, ở game này mình chỉ có cộng lực cầu thủ đá vào trái banh, ngoài ra còn có các lực thông dụng khác như gravity(trọng lực), drag force(lực cản), friction force(lực ma sát), spring force(lực đàn hồi) hay nếu làm game liên quan đến hệ ngân hà(mặt trăng quay quanh trái đất) thì có thể thêm gravitational attraction force(lực hấp dẫn). Mỗi loại lực sẽ có công thức tính khác nhau, cuối cùng đều ra 1 Vec2 và mình cứ cộng hết vào biến totalForces</li>
+<li>Theo định luật I của Newton <code>Nếu một vật không chịu tác dụng của bất cứ lực nào hoặc chịu tác dụng của nhiều lực nhưng tổng hợp lực của các lực này bằng không thì vât giữ nguyên trạng thái chuyển động thẳng đều hoặc đứng yên</code>, trong Physics engine cũng thể hiện nếu Entity có biến <code>totalForces</code> bằng 0 thì Entity(body) đó sẽ đứng yên.</li>
 <li>Ở stage 2, 3, 4 mình hiện tại chỉ tính Linear momentum(động lượng tuyến tính) cho đơn giản, thực tế là mình cần phải tính thêm cả Angular momentum (Mô men động lượng). Tham khảo cách tính ở <a href="https://github.com/thanhfphan/physics2d/blob/master/src/body.cpp#L71">đây</a></li>
 </ul>
 </div>
