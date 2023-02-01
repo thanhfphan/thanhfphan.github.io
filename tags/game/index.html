@@ -8,6 +8,9 @@
   <title>
     
       
+        game |
+
+      
       Thanh Phan
 
 
@@ -78,10 +81,10 @@
   <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png" />
   <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png" />
 
-  <link rel="canonical" href="https://thanhfphan.com/" />
+  <link rel="canonical" href="https://thanhfphan.com/tags/game/" />
 
   
-  <link rel="alternate" type="application/rss+xml" href="/index.xml" title="" />
+  <link rel="alternate" type="application/rss+xml" href="/tags/game/index.xml" title="" />
 
 
   
@@ -113,33 +116,21 @@
   <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://thanhfphan.com/images/site-feature-image.png"/>
 
-<meta name="twitter:title" content=""/>
+<meta name="twitter:title" content="game"/>
 <meta name="twitter:description" content="a software engineer have interested in game development stuffs"/>
 
 
 
   
-  <meta property="og:title" content="" />
+  <meta property="og:title" content="game" />
 <meta property="og:description" content="a software engineer have interested in game development stuffs" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="https://thanhfphan.com/" /><meta property="og:image" content="https://thanhfphan.com/images/site-feature-image.png"/><meta property="og:site_name" content="Thanh Phan" />
+<meta property="og:url" content="https://thanhfphan.com/tags/game/" /><meta property="og:image" content="https://thanhfphan.com/images/site-feature-image.png"/><meta property="og:site_name" content="Thanh Phan" />
 
 
 
   
-  <script type="application/ld+json">
-    {
-      "@context": "http://schema.org",
-      "@type": "WebSite",
-      "name": "",
-      "url": "https:\/\/thanhfphan.com",
-      "description": "a software engineer have interested in game development stuffs",
-      "thumbnailUrl": "https:\/\/thanhfphan.com",
-      "license": ""
-    }
-  </script>
-
-
+  
 
 </head>
 <body
@@ -151,7 +142,7 @@
     <div class="wrapper">
       <aside
         
-          class="wrapper__sidebar"
+          class="wrapper__sidebar wrapper__sidebar--hidden"
 
         
       ><div
@@ -168,9 +159,9 @@
         alt="profile picture"
       />
       
-        <h1 class="sidebar__introduction-title">
+        <div class="sidebar__introduction-title">
           <a href="/">Thanh Phan</a>
-        </h1>
+        </div>
 
       
       <div class="sidebar__introduction-description">
@@ -266,7 +257,7 @@
 </aside>
       <main
         
-          class="wrapper__main"
+          class="wrapper__main wrapper__main--fullscreen"
 
         
       >
@@ -290,9 +281,6 @@
         
           <li class="nav__list-item">
             <a
-              
-                class="nav__link--active"
-
               
               href="/"
               
@@ -339,171 +327,31 @@
 </div>
 </header>
   <div
-    class="post 
+    class="archive 
       animated fadeInDown
 
     "
   >
-    <div class="post__content">
+    
+      <div class="archive__heading">2023</div>
       
-    </div>
+        <ul class="archive__list">
+          <li class="archive__list-item">
+            <a class="archive__list-title" href="/posts/physics-engine-hoat-dong-nhu-the-nao/" title="Physics Engine hoạt động như thế nào?">Physics Engine hoạt động như thế nào?</a>
+            <div class="archive__list-date">
+              
+                1/2/2023
+
+
+              
+            </div>
+          </li>
+        </ul>
+
+      
+
 
     
-  </div>
-
-  
-
-  
-  
-    <div
-      class="post 
-        animated fadeInDown
-
-      "
-    >
-      
-      <div class="post__content">
-        <h3><a href="/posts/physics-engine-hoat-dong-nhu-the-nao/">PHYSICS ENGINE HOẠT ĐỘNG NHƯ THẾ NÀO?</a></h3>
-        
-          <p>Nói ngắn gọn physics engine là phần mềm mô phỏng các hiện tượng vật lý, tuy nhiên bài viết này chỉ giới hạn nói về cách hoạt động của physics engine và cách nó được tích hợp trong các game engine để phát triển các trò chơi điện tử đồ họa 2D, mặc dù trong bài viết này nói về 2D game physics engine nhưng các khái niệm cũng được áp dụng tương tự ở 3D game physics engine.</p>
-
-        
-        </div>
-
-      
-      <div class="post__footer">
-        <em class="fas fa-calendar-day"></em>
-        <span class="post__footer-date"
-          >
-            1/2/2023
-
-
-          </span
-        >
-        
-
-        
-          <span><a class="tag" href="/tags/game/">game</a><a class="tag" href="/tags/physics-engine/">physics-engine</a><a class="tag" href="/tags/game-engine/">game-engine</a></span>
-
-
-
-
-        
-      </div>
-    </div>
-
-  
-    <div
-      class="post 
-        animated fadeInDown
-
-      "
-    >
-      
-      <div class="post__content">
-        <h3><a href="/posts/false-sharing/">FALSE SHARING</a></h3>
-        
-          <p>Khi CPU truy cập memory ở một địa chỉ cụ thể để lấy dữ liệu thì CPU sẽ tự động sao chép các dữ liệu liền kề với địa chỉ đó(cache line) vào CPU cache để tối ưu lần truy cập sau, tuy nhiên việc cập nhật các phần tử khác nhau(multiprocessor) ở trong cache line sẽ dẫn đến cache line được đánh dấu là invalid, từ đó buộc CPU phải gửi yêu cầu lấy dữ liệu đến memory hoặc các nơi khác thay vì lấy trong CPU cache, tình huống này được gọi là false sharing</p>
-
-        
-        </div>
-
-      
-      <div class="post__footer">
-        <em class="fas fa-calendar-day"></em>
-        <span class="post__footer-date"
-          >
-            27/1/2023
-
-
-          </span
-        >
-        
-
-        
-          <span><a class="tag" href="/tags/go/">go</a><a class="tag" href="/tags/parallel/">parallel</a><a class="tag" href="/tags/vietnamese/">vietnamese</a></span>
-
-
-
-
-        
-      </div>
-    </div>
-
-  
-    <div
-      class="post 
-        animated fadeInDown
-
-      "
-    >
-      
-      <div class="post__content">
-        <h3><a href="/posts/double-buffering/">DOUBLE BUFFERING</a></h3>
-        
-          <p>Là một kỹ thuật lập trình dùng 2 buffer để lưu trữ dữ liệu, mục đích để giảm thời gian chờ giữa lúc chuẩn bị và lúc sử dụng dữ liệu.</p>
-
-        
-        </div>
-
-      
-      <div class="post__footer">
-        <em class="fas fa-calendar-day"></em>
-        <span class="post__footer-date"
-          >
-            26/1/2023
-
-
-          </span
-        >
-        
-
-        
-          <span><a class="tag" href="/tags/go/">go</a><a class="tag" href="/tags/parallel/">parallel</a><a class="tag" href="/tags/vietnamese/">vietnamese</a></span>
-
-
-
-
-        
-      </div>
-    </div>
-
-  
-    <div
-      class="post 
-        animated fadeInDown
-
-      "
-    >
-      
-      <div class="post__content">
-        <h3><a href="/posts/hello/">HELLO</a></h3>
-        
-          <p>How’s your day going?</p>
-
-        
-        </div>
-
-      
-      <div class="post__footer">
-        <em class="fas fa-calendar-day"></em>
-        <span class="post__footer-date"
-          >
-            13/2/2022
-
-
-          </span
-        >
-        
-
-        
-      </div>
-    </div>
-
-  
-  <div class="pagination">
-    
-
   </div>
 
 

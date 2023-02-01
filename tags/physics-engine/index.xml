@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>physics-engine on </title>
+    <link>https://thanhfphan.com/tags/physics-engine/</link>
+    <description>Recent content in physics-engine on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 01 Feb 2023 14:14:53 +0700</lastBuildDate><atom:link href="https://thanhfphan.com/tags/physics-engine/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Physics Engine hoạt động như thế nào?</title>
+      <link>https://thanhfphan.com/posts/physics-engine-hoat-dong-nhu-the-nao/</link>
+      <pubDate>Wed, 01 Feb 2023 14:14:53 +0700</pubDate>
+      
+      <guid>https://thanhfphan.com/posts/physics-engine-hoat-dong-nhu-the-nao/</guid>
+      
+        <description>Nói ngắn gọn physics engine là phần mềm mô phỏng các hiện tượng vật lý, tuy nhiên bài viết này chỉ giới hạn nói về cách hoạt động của physics engine và cách nó được tích hợp trong các game engine để phát triển các trò chơi điện tử đồ họa 2D, mặc dù trong bài viết này nói về 2D game physics engine nhưng các khái niệm cũng được áp dụng tương tự ở 3D game physics engine.</description>
+      
+    </item>
+    
+  </channel>
+</rss>
