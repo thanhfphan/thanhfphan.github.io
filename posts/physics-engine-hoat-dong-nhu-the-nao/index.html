@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html
   dir="ltr"
   lang="en"
@@ -7,6 +7,7 @@
     class="html theme--light"
   
 ><head>
+  <meta charset="utf-8" />
   <title>
     
       
@@ -15,8 +16,7 @@
 
   </title>
 
-  
-  <meta charset="utf-8" /><meta name="generator" content="Hugo 0.108.0"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <meta name="generator" content="Hugo 0.134.2"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
   <meta name="author" content="Thanh Phan" />
   <meta
     name="description"
@@ -28,8 +28,8 @@
     
     <link
       rel="stylesheet"
-      href="/scss/main.min.afcf7a74c48633d6afc6447bf52d6af2c1bbc24b0cb0ce6d834cc98f49bfba77.css"
-      integrity="sha256-r896dMSGM9avxkR79S1q8sG7wksMsM5tg0zJj0m/unc="
+      href="/scss/main.min.1cac29897bb941adf4246700acb99deffbfdf35a02ffc4ae81484456ebe430c3.css"
+      integrity="sha256-HKwpiXu5Qa30JGcArLmd7/v981oC/8SugUhEVuvkMMM="
       crossorigin="anonymous"
       type="text/css"
     />
@@ -47,32 +47,32 @@
   
   <link
     rel="stylesheet"
-    href="/fontawesome/css/fontawesome.min.7d272de35b410fb165377550cdf9c4d3a80fbbcc961e111914e4d5c0eaf5729f.css"
-    integrity="sha256-fSct41tBD7FlN3VQzfnE06gPu8yWHhEZFOTVwOr1cp8="
+    href="/fontawesome/css/fontawesome.min.137b1cf3cea9a8adb7884343a9a5ddddf4280f59153f74dc782fb7f7bf0d0519.css"
+    integrity="sha256-E3sc886pqK23iENDqaXd3fQoD1kVP3TceC&#43;3978NBRk="
     crossorigin="anonymous"
     type="text/css"
   />
   
   <link
     rel="stylesheet"
-    href="/fontawesome/css/solid.min.55d8333481b07a08e07cf6f37319753a2b47e99f4c395394c5747b48b495aa9b.css"
-    integrity="sha256-VdgzNIGwegjgfPbzcxl1OitH6Z9MOVOUxXR7SLSVqps="
+    href="/fontawesome/css/solid.min.e65dc5b48fb5f39b142360c57c3a215744c94e56c755c929cc3e88fe12aab4d3.css"
+    integrity="sha256-5l3FtI&#43;185sUI2DFfDohV0TJTlbHVckpzD6I/hKqtNM="
     crossorigin="anonymous"
     type="text/css"
   />
   
   <link
     rel="stylesheet"
-    href="/fontawesome/css/regular.min.a7448d02590b43449364b6b5922ed9af5410abb4de4238412a830316dedb850b.css"
-    integrity="sha256-p0SNAlkLQ0STZLa1ki7Zr1QQq7TeQjhBKoMDFt7bhQs="
+    href="/fontawesome/css/regular.min.6f4f16d58da1c82c0c3a3436e021a3d39b4742f741192c546e73e947eacfd92f.css"
+    integrity="sha256-b08W1Y2hyCwMOjQ24CGj05tHQvdBGSxUbnPpR&#43;rP2S8="
     crossorigin="anonymous"
     type="text/css"
   />
   
   <link
     rel="stylesheet"
-    href="/fontawesome/css/brands.min.9ed75a5d670c953fe4df935937674b4646f92674367e9e66eb995bb04e821647.css"
-    integrity="sha256-ntdaXWcMlT/k35NZN2dLRkb5JnQ2fp5m65lbsE6CFkc="
+    href="/fontawesome/css/brands.min.e10425ad768bc98ff1fb272a0ac8420f9d1ba22f0612c08ff1010c95080ffe7e.css"
+    integrity="sha256-4QQlrXaLyY/x&#43;ycqCshCD50boi8GEsCP8QEMlQgP/n4="
     crossorigin="anonymous"
     type="text/css"
   />
@@ -108,23 +108,32 @@
 
   
 
-
   
-  <meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="https://thanhfphan.com/images/site-feature-image.png"/>
-
-<meta name="twitter:title" content="Physics Engine hoạt động như thế nào?"/>
-<meta name="twitter:description" content="Nói ngắn gọn physics engine là phần mềm mô phỏng các hiện tượng vật lý, tuy nhiên bài viết này chỉ giới hạn nói về cách hoạt động của physics engine và cách nó được tích hợp trong các game engine để phát triển các trò chơi điện tử đồ họa 2D, mặc dù trong bài viết này nói về 2D game physics engine nhưng các khái niệm cũng được áp dụng tương tự ở 3D game physics engine."/>
-
 
 
   
-  <meta property="og:title" content="Physics Engine hoạt động như thế nào?" />
-<meta property="og:description" content="Nói ngắn gọn physics engine là phần mềm mô phỏng các hiện tượng vật lý, tuy nhiên bài viết này chỉ giới hạn nói về cách hoạt động của physics engine và cách nó được tích hợp trong các game engine để phát triển các trò chơi điện tử đồ họa 2D, mặc dù trong bài viết này nói về 2D game physics engine nhưng các khái niệm cũng được áp dụng tương tự ở 3D game physics engine." />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://thanhfphan.com/posts/physics-engine-hoat-dong-nhu-the-nao/" /><meta property="og:image" content="https://thanhfphan.com/images/site-feature-image.png"/><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2023-02-01T14:14:53+07:00" />
-<meta property="article:modified_time" content="2023-02-01T14:14:53+07:00" /><meta property="og:site_name" content="Thanh Phan" />
+  
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://thanhfphan.com/images/site-feature-image.png">
+  <meta name="twitter:title" content="Physics Engine hoạt động như thế nào?">
+  <meta name="twitter:description" content="Nói ngắn gọn physics engine là phần mềm mô phỏng các hiện tượng vật lý, tuy nhiên bài viết này chỉ giới hạn nói về cách hoạt động của physics engine và cách nó được tích hợp trong các game engine để phát triển các trò chơi điện tử đồ họa 2D, mặc dù trong bài viết này nói về 2D game physics engine nhưng các khái niệm cũng được áp dụng tương tự ở 3D game physics engine.">
+
+
+
+  
+  <meta property="og:url" content="https://thanhfphan.com/posts/physics-engine-hoat-dong-nhu-the-nao/">
+  <meta property="og:site_name" content="Thanh Phan">
+  <meta property="og:title" content="Physics Engine hoạt động như thế nào?">
+  <meta property="og:description" content="Nói ngắn gọn physics engine là phần mềm mô phỏng các hiện tượng vật lý, tuy nhiên bài viết này chỉ giới hạn nói về cách hoạt động của physics engine và cách nó được tích hợp trong các game engine để phát triển các trò chơi điện tử đồ họa 2D, mặc dù trong bài viết này nói về 2D game physics engine nhưng các khái niệm cũng được áp dụng tương tự ở 3D game physics engine.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2023-02-01T14:14:53+07:00">
+    <meta property="article:modified_time" content="2023-02-01T14:14:53+07:00">
+    <meta property="article:tag" content="Game">
+    <meta property="article:tag" content="Physics-Engine">
+    <meta property="article:tag" content="Game-Engine">
+    <meta property="og:image" content="https://thanhfphan.com/images/site-feature-image.png">
 
 
 
@@ -142,7 +151,7 @@
         "alternativeHeadline": "",
         "description": "
       
-        Nói ngắn gọn physics engine là phần mềm mô phỏng các hiện tượng vật lý, tuy nhiên bài viết này chỉ giới hạn nói về cách hoạt động của physics engine và cách nó được tích hợp trong các game engine để phát triển các trò chơi điện tử đồ họa 2D, mặc dù trong bài viết này nói về 2D game physics engine nhưng các khái niệm cũng được áp dụng tương tự ở 3D game physics engine.
+        \u003cp\u003eNói ngắn gọn physics engine là phần mềm mô phỏng các hiện tượng vật lý, tuy nhiên bài viết này chỉ giới hạn nói về cách hoạt động của \u003cstrong\u003ephysics engine\u003c\/strong\u003e và cách nó được tích hợp trong các game engine để phát triển các trò chơi điện tử đồ họa 2D, mặc dù trong bài viết này nói về 2D game physics engine nhưng các khái niệm cũng được áp dụng tương tự ở 3D game physics engine.\u003c\/p\u003e
 
 
       
@@ -178,7 +187,7 @@
         "publisher":{
             "@type":"Organization",
             "name": "Thanh Phan",
-            "url": "https://thanhfphan.com",
+            "url": "https://thanhfphan.com/",
             "logo": {
                 "@type": "ImageObject",
                 "url": "https:\/\/thanhfphan.com\/favicons\/favicon-32x32.png",
@@ -391,7 +400,9 @@
   >
     
     <div class="post__content">
-      <h1>Physics Engine Hoạt Động Như Thế Nào?</h1>
+      
+        <h1>Physics Engine Hoạt Động Như Thế Nào?</h1>
+      
       
         <ul class="post__meta">
           <li class="post__meta-item">
@@ -412,16 +423,16 @@
         </ul>
       <p>Nói ngắn gọn physics engine là phần mềm mô phỏng các hiện tượng vật lý, tuy nhiên bài viết này chỉ giới hạn nói về cách hoạt động của <strong>physics engine</strong> và cách nó được tích hợp trong các game engine để phát triển các trò chơi điện tử đồ họa 2D, mặc dù trong bài viết này nói về 2D game physics engine nhưng các khái niệm cũng được áp dụng tương tự ở 3D game physics engine.</p>
 <table>
-<thead>
-<tr>
-<th style="text-align:center"><img src="/posts/images/physics-engine/game-overview.PNG" alt="game overview"></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center"><em>Figure 1</em></td>
-</tr>
-</tbody>
+  <thead>
+      <tr>
+          <th style="text-align: center"><img alt="game overview" src="/posts/images/physics-engine/game-overview.PNG"></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: center"><em>Figure 1</em></td>
+      </tr>
+  </tbody>
 </table>
 <p>Tưởng tượng chúng ta đang phát triển một trò chơi bóng đá, có một số vấn đề về giả lập cho giống môi trường bên ngoài để game trông thật hơn/hay hơn mà chúng ta(physics engine) cần giải quyết như:</p>
 <ul>
@@ -430,29 +441,29 @@
 <li>Khi quả bóng di chuyển thì tốc độ sẽ giảm dần(vì có ma sát với mặt sân)</li>
 </ul>
 <table>
-<thead>
-<tr>
-<th style="text-align:center"><img src="/posts/images/physics-engine/game-engine-vs-physics-engine.PNG" alt="game vs physic"></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center"><em>Figure 2</em></td>
-</tr>
-</tbody>
+  <thead>
+      <tr>
+          <th style="text-align: center"><img alt="game vs physic" src="/posts/images/physics-engine/game-engine-vs-physics-engine.PNG"></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: center"><em>Figure 2</em></td>
+      </tr>
+  </tbody>
 </table>
 <p>Chúng ta có thể coi tất cả(cầu thủ, trái banh, khung thành, trọng tài &hellip;) là Entity mỗi Enity thì đính kèm Body(có thông tin cân nặng, gia tốc &hellip;) và physics engine chỉ cần quan tâm các thông tin trong body để xử lý giả lập vật lý còn các thông tin khác như cầu thủ team nào, chạy nhanh bao nhiêu&hellip; thì đó thuộc về phần game logic.</p>
 <table>
-<thead>
-<tr>
-<th style="text-align:center"><img src="/posts/images/physics-engine/physics-overview.PNG" alt="physics engine overview"></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center"><em>Figure 3</em></td>
-</tr>
-</tbody>
+  <thead>
+      <tr>
+          <th style="text-align: center"><img alt="physics engine overview" src="/posts/images/physics-engine/physics-overview.PNG"></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: center"><em>Figure 3</em></td>
+      </tr>
+  </tbody>
 </table>
 <p>Physics engine chỉ nhận input từ game logic component(đầu vào có thể là tạo mới body, xóa body, add forces &hellip;) sau đó xử lý tính toán ra vận tốc, hướng đi, độ quay, tọa độ &hellip; của body, rồi game logic sẽ lấy những thông tin đã được physics engine xử lý để vẽ ra màn hình. Bản chất cũng chỉ là 1 vòng lặp vô tận nhận input từ game logic rồi xử lý và cứ lặp đi lặp lại như vậy.
 Về cơ bản physics engine được chi ra làm 4 stages:</p>
@@ -464,59 +475,59 @@ Về cơ bản physics engine được chi ra làm 4 stages:</p>
 </ul>
 <h2 id="stage-1-collision---phát-hiện-va-chạm">Stage 1: Collision - Phát hiện va chạm</h2>
 <table>
-<thead>
-<tr>
-<th style="text-align:center"><img src="/posts/images/physics-engine/collision-stage.PNG" alt="physics engine overview"></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center"><em>Figure 4</em></td>
-</tr>
-</tbody>
+  <thead>
+      <tr>
+          <th style="text-align: center"><img alt="physics engine overview" src="/posts/images/physics-engine/collision-stage.PNG"></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: center"><em>Figure 4</em></td>
+      </tr>
+  </tbody>
 </table>
 <p>Ở bước này được chia làm 2 phases nhỏ là board-phase và narrow phase. Board-phase mục tiêu là liệt kê những Body <strong>có khả năng</strong> va chạm rồi từ list có khả năng va chạm đó mới kiểm tra thật sự có va chạm không ở narrow-phase nhằm tối ưu performance.</p>
 <h3 id="board-phase">Board phase</h3>
 <p>Bước này thường dùng các thuật toán đơn giản, nhanh như axis-aligned bounding box(AABB) để tính toán từng cặp body xem có đụng nhau hay không. Chú ý là thuật toán AABB chỉ áp dụng được cho 2 hình chữ nhật có cạnh song song với trục x và trục y. Hoặc nếu 2 body đó là hình tròn, nếu cả 2 là hình tròn thì chỉ cần kiểm tra khoảng cách từ 2 tâm mà nhỏ hơn tổng 2 bán kính 2 hình tròn thì 2 body đó colission với nhau.</p>
 <table>
-<thead>
-<tr>
-<th style="text-align:center"><img src="/posts/images/physics-engine/broad-phase.PNG" alt="broad phase"></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center"><em>Figure 5</em></td>
-</tr>
-</tbody>
+  <thead>
+      <tr>
+          <th style="text-align: center"><img alt="broad phase" src="/posts/images/physics-engine/broad-phase.PNG"></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: center"><em>Figure 5</em></td>
+      </tr>
+  </tbody>
 </table>
 <p>Vậy trường hợp body không phải hình tròn và cũng không phải hình chữ nhật luôn thì thế nào? Trường hợp này ta chỉ cần bao body trong 1 hình tròn lớn/ hoặc hình chữ nhật rồi kiểm tra, vậy mới nói phase này chỉ kiểm tra <strong>có khả năng</strong> collision. Để tăng performance có thể chia màn hình ra 4 grid, chỉ cần check các cặp body trong cùng 1 grid với nhau(màu đỏ) vì 2 body trong 2 grid khác nhau thì không thể xảy ra collision. Hoặc có thể chiếu tọa độ x min, max của 2 body lên trục Ox(màu xanh), nếu giao nhau thì có thể xảy ra collision</p>
 <h3 id="narrow-phase">Narrow phase</h3>
 <table>
-<thead>
-<tr>
-<th style="text-align:center"><img src="/posts/images/physics-engine/narrow-phase.PNG" alt="narrow phase"></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center"><em>Figure 6</em></td>
-</tr>
-</tbody>
+  <thead>
+      <tr>
+          <th style="text-align: center"><img alt="narrow phase" src="/posts/images/physics-engine/narrow-phase.PNG"></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: center"><em>Figure 6</em></td>
+      </tr>
+  </tbody>
 </table>
 <p>Ở bước này thì thường dùng thuật toán Separating Axis Theorem(SAT) để phát hiện những body xảy ra va chạm. Nếu 2 body là va chạm thì cần phải lấy được thông tin normal vector, penetration(độ sâu), reference face và incident face để qua stage 3 tính toán được hướng và lực phản ra khi 2 body va chạm nhau. Tham khảo <a href="https://github.com/thanhfphan/physics2d/blob/master/src/collision.cpp#L8">code</a></p>
 <h2 id="stage-2-apply-forces---nhận-thông-tin-từ-game-logic-component">Stage 2: Apply Forces - Nhận thông tin từ game logic component</h2>
 <table>
-<thead>
-<tr>
-<th style="text-align:center"><img src="/posts/images/physics-engine/apply-forces-stage.PNG" alt="apply forces stage"></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center"><em>Figure 7</em></td>
-</tr>
-</tbody>
+  <thead>
+      <tr>
+          <th style="text-align: center"><img alt="apply forces stage" src="/posts/images/physics-engine/apply-forces-stage.PNG"></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: center"><em>Figure 7</em></td>
+      </tr>
+  </tbody>
 </table>
 <p>Như đã nói từ đầu stage 2 này nhận input từ game logic component, vậy input này là gì? input này chính là forces. Ví dụ khi cầu thủ đá 1 trái banh thì trái banh sẽ nhận 1 lực(force). Ok vậy chúng ta đã biết có lực đẩy rồi làm sao chung ta tính được vận tốc trái banh khi bị đá trúng, điều này thì dựa nào định luật thứ 2 Newton huyền thoại <em>F = ma</em></p>
 <pre tabindex="0"><code>Định luật II: Vector gia tốc của một vật luôn cùng hướng với lực tác dụng lên vật. Độ lớn của vector gia tốc tỉ lệ thuận với độ lớn của vector lực và tỉ lệ nghịch với khối lượng của vật.
@@ -538,16 +549,16 @@ Về cơ bản physics engine được chi ra làm 4 stages:</p>
 </span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div><h2 id="stage-3-solve-constraints----tính-toán-va-chạm">Stage 3: Solve constraints -  Tính toán va chạm</h2>
 <table>
-<thead>
-<tr>
-<th style="text-align:center"><img src="/posts/images/physics-engine/solve-constraints-stage.PNG" alt="solve constraints"></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center"><em>Figure 8</em></td>
-</tr>
-</tbody>
+  <thead>
+      <tr>
+          <th style="text-align: center"><img alt="solve constraints" src="/posts/images/physics-engine/solve-constraints-stage.PNG"></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: center"><em>Figure 8</em></td>
+      </tr>
+  </tbody>
 </table>
 <p>Tính được vận tốc, chúng ta cần tính thêm lực đẩy, theo định luật 3 Newton thì:</p>
 <pre tabindex="0"><code>Định luật III: Khi một vật tác dụng lực lên vật thể thứ hai, vật thứ hai sẽ tác dụng một lực cùng độ lớn và ngược chiều về phía vật thứ nhất.
@@ -565,16 +576,16 @@ Về cơ bản physics engine được chi ra làm 4 stages:</p>
 </span></span></code></pre></div><p>Ở đây mình minh họa dựa vào định luật 3 Newton mình tính ra được lực đẩy vào 2 body, thực tế tính toán phức tạp hơn nên mình cứ coi nó là magicbox. Các bạn có thể tham khảo thêm phần <a href="https://github.com/thanhfphan/physics2d/blob/master/src/contact.cpp#L44">code này</a></p>
 <h2 id="stage-4-update-positions---tính-toán-sau-khi-va-chạm">Stage 4: Update positions - Tính toán sau khi va chạm</h2>
 <table>
-<thead>
-<tr>
-<th style="text-align:center"><img src="/posts/images/physics-engine/update-positions-stage.PNG" alt="update positions"></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center"><em>Figure 9</em></td>
-</tr>
-</tbody>
+  <thead>
+      <tr>
+          <th style="text-align: center"><img alt="update positions" src="/posts/images/physics-engine/update-positions-stage.PNG"></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: center"><em>Figure 9</em></td>
+      </tr>
+  </tbody>
 </table>
 <p>Khi đã tính toán vận tốc xong xuôi, cuối cùng chỉ là việc update vị trí của các body.</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-C++" data-lang="C++"><span style="display:flex;"><span><span style="color:#66d9ef">for</span> Body b : bodies {

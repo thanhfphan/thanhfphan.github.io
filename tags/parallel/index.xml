@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>parallel on </title>
+    <title>Parallel on </title>
     <link>https://thanhfphan.com/tags/parallel/</link>
-    <description>Recent content in parallel on </description>
+    <description>Recent content in Parallel on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Fri, 27 Jan 2023 16:00:17 +0700</lastBuildDate><atom:link href="https://thanhfphan.com/tags/parallel/index.xml" rel="self" type="application/rss+xml" />
@@ -14,7 +14,7 @@
       
       <guid>https://thanhfphan.com/posts/false-sharing/</guid>
       
-        <description>Khi CPU truy cập memory ở một địa chỉ cụ thể để lấy dữ liệu thì CPU sẽ tự động sao chép các dữ liệu liền kề với địa chỉ đó(cache line) vào CPU cache để tối ưu lần truy cập sau, tuy nhiên việc cập nhật các phần tử khác nhau(multiprocessor) ở trong cache line sẽ dẫn đến cache line được đánh dấu là invalid, từ đó buộc CPU phải gửi yêu cầu lấy dữ liệu đến memory hoặc các nơi khác thay vì lấy trong CPU cache, tình huống này được gọi là false sharing</description>
+        <description>&lt;p&gt;Khi CPU truy cập memory ở một địa chỉ cụ thể để lấy dữ liệu thì CPU sẽ tự động sao chép các dữ liệu liền kề với địa chỉ đó(cache line) vào CPU cache để tối ưu lần truy cập sau, tuy nhiên việc cập nhật các phần tử khác nhau(multiprocessor) ở trong cache line sẽ dẫn đến cache line được đánh dấu là invalid, từ đó buộc CPU phải gửi yêu cầu lấy dữ liệu đến memory hoặc các nơi khác thay vì lấy trong CPU cache, tình huống này được gọi là &lt;strong&gt;false sharing&lt;/strong&gt;&lt;/p&gt;</description>
       
     </item>
     
@@ -25,7 +25,7 @@
       
       <guid>https://thanhfphan.com/posts/double-buffering/</guid>
       
-        <description>Là một kỹ thuật lập trình dùng 2 buffer để lưu trữ dữ liệu, mục đích để giảm thời gian chờ giữa lúc chuẩn bị và lúc sử dụng dữ liệu.</description>
+        <description>&lt;p&gt;Là một kỹ thuật lập trình dùng 2 buffer để lưu trữ dữ liệu, mục đích để giảm thời gian chờ giữa lúc chuẩn bị và lúc sử dụng dữ liệu. Được biết nhiều ở lĩnh vực đồ họa máy tính, game, hệ điều hành. Bài viết minh họa kỹ thuật Double Buffering trong lập trình song song sử dụng ngôn ngữ Go.&lt;/p&gt;</description>
       
     </item>
     
