@@ -16,7 +16,7 @@
 
   </title>
 
-  <meta name="generator" content="Hugo 0.134.2"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <meta name="generator" content="Hugo 0.154.2"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
   <meta name="author" content="Thanh Phan" />
   <meta
     name="description"
@@ -24,18 +24,8 @@
   />
   
   
-    
-    
-    <link
-      rel="stylesheet"
-      href="/scss/main.min.1cac29897bb941adf4246700acb99deffbfdf35a02ffc4ae81484456ebe430c3.css"
-      integrity="sha256-HKwpiXu5Qa30JGcArLmd7/v981oC/8SugUhEVuvkMMM="
-      crossorigin="anonymous"
-      type="text/css"
-    />
-  
-
-  
+        <link rel="stylesheet" href="/css/anatole.min.9afca1435bf22634690a78ac9e9168ed60abcc28b1591d0a7f28e592626e4a2b.css" integrity="sha256-mvyhQ1vyJjRpCnisnpFo7WCrzCixWR0KfyjlkmJuSis=" crossorigin="anonymous" />
+      
   <link
     rel="stylesheet"
     href="/css/markupHighlight.min.73ccfdf28df555e11009c13c20ced067af3cb021504cba43644c705930428b00.css"
@@ -83,7 +73,6 @@
   <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png" />
 
   <link rel="canonical" href="https://thanhfphan.com/posts/physics-engine-hoat-dong-nhu-the-nao/" />
-
   
   
   
@@ -100,10 +89,12 @@
     
     <script
       type="text/javascript"
-      src="/js/anatole-theme-switcher.min.d6d329d93844b162e8bed1e915619625ca91687952177552b9b3e211014a2957.js"
-      integrity="sha256-1tMp2ThEsWLovtHpFWGWJcqRaHlSF3VSubPiEQFKKVc="
+      src="/js/anatole-theme-switcher.min.8724ddf9268dee451060f191961647573c7f592fbccc6d858746236b3f915813.js"
+      integrity="sha256-hyTd&#43;SaN7kUQYPGRlhZHVzx/WS&#43;8zG2Fh0Yjaz&#43;RWBM="
       crossorigin="anonymous"
     ></script>
+  
+
   
 
   
@@ -158,6 +149,8 @@
 
 
     ",
+        "license": "",
+        
         "inLanguage": "en",
         "isFamilyFriendly": "true",
         "mainEntityOfPage": {
@@ -180,7 +173,6 @@
             "@type": "Person",
             "name": "Thanh Phan"
         },
-        "copyrightYear" : "2023",
         "dateCreated": "2023-02-01T14:14:53.00Z",
         "datePublished": "2023-02-01T14:14:53.00Z",
         "dateModified": "2023-02-01T14:14:53.00Z",
@@ -231,6 +223,11 @@
   </script>
 
 
+
+
+  
+  
+  
 </head>
 <body class="body">
     <div class="wrapper">
@@ -304,7 +301,7 @@
       &copy;
       
         Thanh Phan
-        2024
+        2026
       
     </li>
     
@@ -313,8 +310,8 @@
   
   <script
     type="text/javascript"
-    src="/js/medium-zoom.min.1248fa75275e5ef0cbef27e8c1e27dc507c445ae3a2c7d2ed0be0809555dac64.js"
-    integrity="sha256-Ekj6dSdeXvDL7yfoweJ9xQfERa46LH0u0L4ICVVdrGQ="
+    src="/js/medium-zoom.min.9531b4a2217a70c5a1fce89c1f81c9ebbdd586708fcd4130b417320c7230c8d6.js"
+    integrity="sha256-lTG0oiF6cMWh/OicH4HJ673VhnCPzUEwtBcyDHIwyNY="
     crossorigin="anonymous"
   ></script>
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-SWLXPRHX6Q"></script>
@@ -425,7 +422,7 @@
 <table>
   <thead>
       <tr>
-          <th style="text-align: center"><img alt="game overview" src="/posts/images/physics-engine/game-overview.PNG"></th>
+          <th style="text-align: center"><img src="/posts/images/physics-engine/game-overview.PNG" alt="game overview"></th>
       </tr>
   </thead>
   <tbody>
@@ -443,7 +440,7 @@
 <table>
   <thead>
       <tr>
-          <th style="text-align: center"><img alt="game vs physic" src="/posts/images/physics-engine/game-engine-vs-physics-engine.PNG"></th>
+          <th style="text-align: center"><img src="/posts/images/physics-engine/game-engine-vs-physics-engine.PNG" alt="game vs physic"></th>
       </tr>
   </thead>
   <tbody>
@@ -456,7 +453,7 @@
 <table>
   <thead>
       <tr>
-          <th style="text-align: center"><img alt="physics engine overview" src="/posts/images/physics-engine/physics-overview.PNG"></th>
+          <th style="text-align: center"><img src="/posts/images/physics-engine/physics-overview.PNG" alt="physics engine overview"></th>
       </tr>
   </thead>
   <tbody>
@@ -477,7 +474,7 @@ Về cơ bản physics engine được chi ra làm 4 stages:</p>
 <table>
   <thead>
       <tr>
-          <th style="text-align: center"><img alt="physics engine overview" src="/posts/images/physics-engine/collision-stage.PNG"></th>
+          <th style="text-align: center"><img src="/posts/images/physics-engine/collision-stage.PNG" alt="physics engine overview"></th>
       </tr>
   </thead>
   <tbody>
@@ -492,7 +489,7 @@ Về cơ bản physics engine được chi ra làm 4 stages:</p>
 <table>
   <thead>
       <tr>
-          <th style="text-align: center"><img alt="broad phase" src="/posts/images/physics-engine/broad-phase.PNG"></th>
+          <th style="text-align: center"><img src="/posts/images/physics-engine/broad-phase.PNG" alt="broad phase"></th>
       </tr>
   </thead>
   <tbody>
@@ -506,7 +503,7 @@ Về cơ bản physics engine được chi ra làm 4 stages:</p>
 <table>
   <thead>
       <tr>
-          <th style="text-align: center"><img alt="narrow phase" src="/posts/images/physics-engine/narrow-phase.PNG"></th>
+          <th style="text-align: center"><img src="/posts/images/physics-engine/narrow-phase.PNG" alt="narrow phase"></th>
       </tr>
   </thead>
   <tbody>
@@ -520,7 +517,7 @@ Về cơ bản physics engine được chi ra làm 4 stages:</p>
 <table>
   <thead>
       <tr>
-          <th style="text-align: center"><img alt="apply forces stage" src="/posts/images/physics-engine/apply-forces-stage.PNG"></th>
+          <th style="text-align: center"><img src="/posts/images/physics-engine/apply-forces-stage.PNG" alt="apply forces stage"></th>
       </tr>
   </thead>
   <tbody>
@@ -533,7 +530,7 @@ Về cơ bản physics engine được chi ra làm 4 stages:</p>
 <pre tabindex="0"><code>Định luật II: Vector gia tốc của một vật luôn cùng hướng với lực tác dụng lên vật. Độ lớn của vector gia tốc tỉ lệ thuận với độ lớn của vector lực và tỉ lệ nghịch với khối lượng của vật.
 </code></pre><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-C++" data-lang="C++"><span style="display:flex;"><span><span style="color:#66d9ef">struct</span> <span style="color:#a6e22e">Body</span> {
 </span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">float</span> mass <span style="color:#75715e">// khối lượng, đơn vị kg
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>	<span style="color:#66d9ef">float</span> friction
+</span></span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">float</span> friction
 </span></span><span style="display:flex;"><span>	Vec2 totalForces
 </span></span><span style="display:flex;"><span>	Vec2 position
 </span></span><span style="display:flex;"><span>	Vec2 acceleration
@@ -543,15 +540,15 @@ Về cơ bản physics engine được chi ra làm 4 stages:</p>
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">for</span> Body b : bodies {
 </span></span><span style="display:flex;"><span>	<span style="color:#75715e">// Định luật 2 Newton
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>	b.acceleration <span style="color:#f92672">=</span> (<span style="color:#ae81ff">1</span><span style="color:#f92672">/</span>b.mass) <span style="color:#f92672">*</span> b.totalForces 
+</span></span></span><span style="display:flex;"><span>	b.acceleration <span style="color:#f92672">=</span> (<span style="color:#ae81ff">1</span><span style="color:#f92672">/</span>b.mass) <span style="color:#f92672">*</span> b.totalForces 
 </span></span><span style="display:flex;"><span>	<span style="color:#75715e">// deltaTime là khoảng cách thời gian giữa 2 frame
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>	b.velocity <span style="color:#f92672">+=</span> b.acceleration <span style="color:#f92672">*</span> deltaTime 
+</span></span></span><span style="display:flex;"><span>	b.velocity <span style="color:#f92672">+=</span> b.acceleration <span style="color:#f92672">*</span> deltaTime 
 </span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div><h2 id="stage-3-solve-constraints----tính-toán-va-chạm">Stage 3: Solve constraints -  Tính toán va chạm</h2>
 <table>
   <thead>
       <tr>
-          <th style="text-align: center"><img alt="solve constraints" src="/posts/images/physics-engine/solve-constraints-stage.PNG"></th>
+          <th style="text-align: center"><img src="/posts/images/physics-engine/solve-constraints-stage.PNG" alt="solve constraints"></th>
       </tr>
   </thead>
   <tbody>
@@ -563,12 +560,12 @@ Về cơ bản physics engine được chi ra làm 4 stages:</p>
 <p>Tính được vận tốc, chúng ta cần tính thêm lực đẩy, theo định luật 3 Newton thì:</p>
 <pre tabindex="0"><code>Định luật III: Khi một vật tác dụng lực lên vật thể thứ hai, vật thứ hai sẽ tác dụng một lực cùng độ lớn và ngược chiều về phía vật thứ nhất.
 </code></pre><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-C++" data-lang="C++"><span style="display:flex;"><span>	Body <span style="color:#f92672">*</span>a <span style="color:#f92672">=</span> bodies[<span style="color:#ae81ff">0</span>]; <span style="color:#75715e">// cầu thủ
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>	Body <span style="color:#f92672">*</span>b <span style="color:#f92672">=</span> bodies[<span style="color:#ae81ff">1</span>]; <span style="color:#75715e">// trái banh
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
+</span></span></span><span style="display:flex;"><span>	Body <span style="color:#f92672">*</span>b <span style="color:#f92672">=</span> bodies[<span style="color:#ae81ff">1</span>]; <span style="color:#75715e">// trái banh
+</span></span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">float</span> elasticity <span style="color:#f92672">=</span> std<span style="color:#f92672">::</span>min(a<span style="color:#f92672">-&gt;</span>restitution, b<span style="color:#f92672">-&gt;</span>restitution);
 </span></span><span style="display:flex;"><span>	Vec2 vrel <span style="color:#f92672">=</span> a<span style="color:#f92672">-&gt;</span>velocity <span style="color:#f92672">-</span> b<span style="color:#f92672">-&gt;</span>velocity;
 </span></span><span style="display:flex;"><span>	<span style="color:#75715e">// normal là vector mà chúng ta tính được ở Board phase
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>	<span style="color:#66d9ef">float</span> impulseMagnitude <span style="color:#f92672">=</span> vrel.Dot(normal) <span style="color:#f92672">*</span> <span style="color:#f92672">-</span>(<span style="color:#ae81ff">1</span> <span style="color:#f92672">+</span> elasticity) <span style="color:#f92672">/</span> (a<span style="color:#f92672">-&gt;</span>invMass <span style="color:#f92672">+</span> b<span style="color:#f92672">-&gt;</span>invMass);
+</span></span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">float</span> impulseMagnitude <span style="color:#f92672">=</span> vrel.Dot(normal) <span style="color:#f92672">*</span> <span style="color:#f92672">-</span>(<span style="color:#ae81ff">1</span> <span style="color:#f92672">+</span> elasticity) <span style="color:#f92672">/</span> (a<span style="color:#f92672">-&gt;</span>invMass <span style="color:#f92672">+</span> b<span style="color:#f92672">-&gt;</span>invMass);
 </span></span><span style="display:flex;"><span>	Vec2 jn <span style="color:#f92672">=</span> <span style="color:#66d9ef">this</span><span style="color:#f92672">-&gt;</span>normal <span style="color:#f92672">*</span> impulseMagnitude;
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>	a<span style="color:#f92672">-&gt;</span>velocity <span style="color:#f92672">+=</span> jn <span style="color:#f92672">*</span> <span style="color:#ae81ff">1</span><span style="color:#f92672">/</span>a.mass
@@ -578,7 +575,7 @@ Về cơ bản physics engine được chi ra làm 4 stages:</p>
 <table>
   <thead>
       <tr>
-          <th style="text-align: center"><img alt="update positions" src="/posts/images/physics-engine/update-positions-stage.PNG"></th>
+          <th style="text-align: center"><img src="/posts/images/physics-engine/update-positions-stage.PNG" alt="update positions"></th>
       </tr>
   </thead>
   <tbody>
@@ -590,7 +587,7 @@ Về cơ bản physics engine được chi ra làm 4 stages:</p>
 <p>Khi đã tính toán vận tốc xong xuôi, cuối cùng chỉ là việc update vị trí của các body.</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-C++" data-lang="C++"><span style="display:flex;"><span><span style="color:#66d9ef">for</span> Body b : bodies {
 </span></span><span style="display:flex;"><span>	<span style="color:#75715e">// công thức quảng đường bằng thời gian x vận tốc :D
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>	b.position <span style="color:#f92672">+=</span> deltaTime <span style="color:#f92672">*</span> b.velocity 
+</span></span></span><span style="display:flex;"><span>	b.position <span style="color:#f92672">+=</span> deltaTime <span style="color:#f92672">*</span> b.velocity 
 </span></span><span style="display:flex;"><span>	b.totalForces <span style="color:#f92672">=</span> Vec2(<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">0</span>) <span style="color:#75715e">// reset forces
 </span></span></span></code></pre></div><h2 id="tổng-kết">Tổng kết</h2>
 <ul>
@@ -668,7 +665,7 @@ Về cơ bản physics engine được chi ra làm 4 stages:</p>
       &copy;
       
         Thanh Phan
-        2024
+        2026
       
     </li>
     
@@ -677,8 +674,8 @@ Về cơ bản physics engine được chi ra làm 4 stages:</p>
   
   <script
     type="text/javascript"
-    src="/js/medium-zoom.min.1248fa75275e5ef0cbef27e8c1e27dc507c445ae3a2c7d2ed0be0809555dac64.js"
-    integrity="sha256-Ekj6dSdeXvDL7yfoweJ9xQfERa46LH0u0L4ICVVdrGQ="
+    src="/js/medium-zoom.min.9531b4a2217a70c5a1fce89c1f81c9ebbdd586708fcd4130b417320c7230c8d6.js"
+    integrity="sha256-lTG0oiF6cMWh/OicH4HJ673VhnCPzUEwtBcyDHIwyNY="
     crossorigin="anonymous"
   ></script>
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-SWLXPRHX6Q"></script>
